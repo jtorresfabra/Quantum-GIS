@@ -42,9 +42,9 @@ QgsMapToolVertexEdit::~QgsMapToolVertexEdit()
 
 void QgsMapToolVertexEdit::displaySnapToleranceWarning()
 {
-  QgisApp::instance()->messageBar()->pushMessage(
-    tr( "Snap tolerance" ),
-    tr( "Could not snap segment. Have you set the tolerance in Settings > Snapping Options?" ),
-    QgsMessageBar::INFO,
-    QgisApp::instance()->messageTimeout() );
+//  QgisApp::instance()->messageBar()->pushMessage(
+//    tr( "Snap tolerance" ),
+//    tr( "Could not snap segment. Have you set the tolerance in Settings > Snapping Options?" ),
+//    QgsMessageBar::INFO,
+//    QgisApp::instance()->messageTimeout() );
 }
